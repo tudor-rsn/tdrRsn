@@ -26,6 +26,8 @@ input.addEventListener("keydown", function(event) {
 
         if (command === "help") {
             output.innerHTML = `
+            <pre>cv      <span class="accent">→</span> resume</pre>
+
             <pre>about   <span class="accent">→</span> whoAmI <span class="accent">/</span> goals</pre>
 
             <pre>skills  <span class="accent">→</span> tech capabilities</pre>
@@ -65,10 +67,15 @@ currently learning through online courses and hands-on projects
  - english (B2)
             </pre>
             `;
+        } else if (command === "cv") {
+            output.innerHTML = `
+            <pre>
+resume <span class="accent">→</span> <a href="assets/cv.pdf" target="_blank">download pdf</a>
+            </pre>
+            `;
         } else if (command === "contact") {
             output.innerHTML = `
             <pre>
-github   <span class="accent">→</span> <a href="https://github.com/tudor-rsn" target="_blank">github.com/tudor-rsn</a>
 linkedin <span class="accent">→</span> <a href="https://linkedin.com/in/tudorursan" target="_blank">linkedin.com/in/tudorursan</a>
 email    <span class="accent">→</span> <a href="mailto:tudor.ursan@proton.me">tudor.ursan@proton.me</a>
             </pre>
