@@ -39,7 +39,7 @@ input.addEventListener("keydown", function(event) {
         } else if (command === "about") {
             output.innerHTML = `
             <pre>
-tudor (stefanita) ursan, 29 y/o
+tudor ursan
 
 my background includes hands-on technical support, computer hardware
 troubleshooting, and experience working with Windows and some Linux environments;
