@@ -45,13 +45,6 @@ my background includes hands-on technical support, computer hardware
 troubleshooting, and experience working with Windows and some Linux environments;
 I enjoy learning how systems work, solving technical problems, and continuously
 improving my skills through study and practical experience
-
-junior Linux & DevOps enthusiast focused on:
- - system administration (RHCSA path)
- - automation
- - infrastructure ecosystem
-
-currently learning through online courses and hands-on projects
             </pre>
             `;
         } else if (command === "skills") {
