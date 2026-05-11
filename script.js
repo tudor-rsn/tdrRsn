@@ -28,7 +28,7 @@ input.addEventListener("keydown", function(event) {
             output.innerHTML = `
             <pre>cv      <span class="accent">→</span> resume</pre>
 
-            <pre>about   <span class="accent">→</span> whoAmI <span class="accent">/</span> goals</pre>
+            <pre>about   <span class="accent">→</span> whoAmI</pre>
 
             <pre>skills  <span class="accent">→</span> tech capabilities</pre>
 
